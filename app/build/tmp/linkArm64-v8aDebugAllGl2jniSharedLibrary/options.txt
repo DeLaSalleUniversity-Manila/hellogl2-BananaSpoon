@@ -1,0 +1,14 @@
+-shared
+-Wl,-soname,libgl2jni.so
+-o
+C:\\Users\\Christian\\Desktop\\Practical\\HelloGL2\\app\\build\\intermediates\\binaries\\debug\\all\\obj\\arm64-v8a\\libgl2jni.so
+C:\\Users\\Christian\\Desktop\\Practical\\HelloGL2\\app\\build\\intermediates\\objectFiles\\arm64-v8aDebugAllGl2jniSharedLibrary\\gl2jniMainCpp\\6jz5ktow1nvwcwgnfz43slzfi\\gl_code.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=C:\\Users\\Christian\\AppData\\Local\\Android\\sdk2\\ndk-bundle/platforms/android-21/arch-arm64
+-Wl,--build-id
+-no-canonical-prefixes
+-llog
+-lGLESv2
